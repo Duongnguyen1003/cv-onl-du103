@@ -1,0 +1,242 @@
+
+{ 
+    "listMenu":[
+    {
+        "id":1,
+        "name":"thông tin",
+        "toLink":"information"
+    },
+    {
+        "id":2,
+        "name":"học vấn",
+        "toLink":"education"
+    },
+    {
+        "id":3,
+        "name":"kỹ năng",
+        "toLink":"skills"
+    },{
+        "id":4,
+        "name":"kinh nghiệm",
+        "toLink":"experience"
+    }
+    ],
+    "nav_mobile":[
+    {
+        "id":1,
+        "name":"thông tin",
+        "toLink":"information",
+        "icon":"./assets/svg_file/svg_information.svg"
+    },
+    {
+        "id":2,
+        "name":"học vấn",
+        "toLink":"education",
+        "icon":"./assets/svg_file/svg_education.svg"
+    },
+    {
+        "id":3,
+        "name":"kỹ năng",
+        "toLink":"skills",
+        "icon":"./assets/svg_file/svg_skills.svg"
+    },{
+        "id":4,
+        "name":"kinh nghiệm",
+        "toLink":"experience",
+        "icon":"./assets/svg_file/svg_experience.svg"
+    }
+    ],
+    "informations":[
+        {
+            "tittle":"Họ tên",
+            "icon":"./assets/svg_file/last_name.svg",
+            "detail":"Nguyễn Thùy Dương",
+            "icon_tittle":"icon họ tên"
+        },
+        {
+            "tittle":"Sinh ngày",
+            "icon":"./assets/svg_file/birthday.svg",
+            "detail":"10/03/1996",
+            "icon_tittle":"icon sinh nhật"
+        },
+        {
+            "tittle":"Số điện thoại",
+            "icon":"./assets/svg_file/phone.svg",
+            "detail":"0377194717",
+            "icon_tittle":"icon số điện thoại"
+        },
+        {
+            "tittle":"Email",
+            "icon":"./assets/svg_file/email.svg",
+            "detail":"duongnt.10396@gmail.com",
+            "icon_tittle":"icon email"
+        },
+        {
+            "tittle":"Địa chỉ",
+            "icon":"./assets/svg_file/address.svg",
+            "detail":"Quận Hoàng Mai, Hà Nội",
+            "icon_tittle":"icon địa chỉ"
+        }
+    ],
+    "skills" :[
+    {
+        "id": 1,
+        "name": "HTML",
+        "imageURL": "./assets/images/logo-html5.png"
+    },
+    {
+        "id": 2,
+        "name": "CSS3",
+        "imageURL": "./assets/images/logo-css3.png"
+    },
+    {
+        "id": 3,
+        "name": "Sass",
+        "imageURL": "./assets/images/logo-sass.png"
+    },
+    {
+        "id": 4,
+        "name": "Tailwindcss",
+        "imageURL": "./assets/images/logo-tailwindcss.png"
+    },
+    {
+        "id": 5,
+        "name": "Bootstrap",
+        "imageURL": "./assets/images/logo-Bootstrap.png"
+    },
+    {
+        "id": 6,
+        "name": "Javascript",
+        "imageURL": "./assets/images/logo-javascript.png"
+    },
+    {
+        "id": 7,
+        "name": "Typescript",
+        "imageURL": "./assets/images/logo-typescript.png"
+    },
+    {
+        "id": 8,
+        "name": "React",
+        "imageURL": "./assets/images/logo-react.png"
+    },
+    {
+        "id": 9,
+        "name": "Angular",
+        "imageURL": "./assets/images/logo-angular.png"
+    },
+    {
+        "id": 10,
+        "name": "AngularJS",
+        "imageURL": "./assets/images/logo-AngularJS.png"
+    },
+    {
+        "id": 11,
+        "name": "Node Js",
+        "imageURL": "./assets/images/logo-node js.png"
+    },
+    {
+        "id": 12,
+        "name": "MySQL",
+        "imageURL": "./assets/images/logo-MySQL.png"
+    },
+    {
+        "id": 13,
+        "name": "MongoDB",
+        "imageURL": "./assets/images/logo-MongoDB.png"
+    },
+    {
+        "id": 14,
+        "name": "Php",
+        "imageURL": "./assets/images/logo-php.png"
+    }
+    ],
+    "experiences": [
+    {
+        "id": 1,
+        "website": "Hệ Thống Quản Lý HRM+",
+        "imageURL":"./assets/images/web_hrm.png",
+        "content":"Hệ thống quản lý HRM+, hệ thống quản lý nhân viên, nhân sự, KPI, các chương trình đào tạo cho cán bộ nhân viên, bộ phận quản lý - quản trị của công ty, tích hợp điểm danh check-in check-out cho công nhân viên trong công ty, KPI. Hệ thống quản lý nội bộ của công ty.",
+        "project":{
+            "api":"",
+            "framework":"#AngularJs",
+            "database":"#MySQL",
+            "css":"#Bootstrap"
+        }
+    },
+    {
+        "id": 2,
+        "website": "Chăm Sóc Spa",
+        "imageURL":"./assets/images/web_spa.png",
+        "content":"Website chăm sóc Spa được xây dựng nhằm mục đích hỗ trợ khách hàng dễ dàng đặt lịch chăm sóc spa, tư vấn - cung cấp các sản phẩm chính hãng đến khách hàng. Website là một hệ thống liền mạch thuận tiện thao tác, trải nghiệm đặt lịch hay mua sắm nhanh chóng dành cho khách hàng.",
+        "project":{
+            "api":"#NodeJs",
+            "framework":"#ReactJs",
+            "database":"#Mongodb",
+            "css":"#Tailwindcss"
+        }
+    },
+    {
+        "id": 3,
+        "website": "Vòng Tay Handmade",
+        "imageURL":"./assets/images/web_beadz.png",
+        "content":"Website vòng tay handmade được thiết kế xây dựng tập trung vào trải nghiệm và chức năng của người dùng, đặt - mua sản phẩm. Website này bao gồm tích hợp liền mạch tính năng giỏ hàng, cho phép người dùng dễ dàng thêm, loại bỏ sản phẩm ở trong giỏ hàng chỉ với vài cú click chuột.",
+        "project":{
+            "api":"#NodeJs",
+            "framework":"#ReactJs",
+            "database":"#Mongodb",
+            "css":"#Tailwindcss"
+        }
+    },
+    {
+        "id": 4,
+        "website": "Website Lego",
+        "imageURL":"./assets/images/web_lego.png",
+        "content":"Website lego cung cấp các BST, các mẫu lego đa dạng phù hợp với mọi lứa tuổi, website dễ dàng thuận tiện cho người dùng, đặt - mua sản phẩm. Website liền mạch tính năng giỏ hàng, cho phép người dùng dễ dàng thêm, loại bỏ sản phẩm ở trong giỏ hàng.",
+        "project":{
+            "api":"#Json-server",
+            "framework":"#JavaScript",
+            "database":"#Mongodb",
+            "css":"#Tailwindcss"
+        }
+    },
+    {
+        "id": 5,
+        "website": "Website Tour Du Lịch Hà Nội One Day",
+        "imageURL":"./assets/images/web_travel1.png",
+        "content":"Website tour du lịch hà nội One Day, website cung cấp dịch vụ đặt tour du lịch - thăm quan Thủ Đô Hà Nội trong vòng 1 ngày, với các di tích, địa điểm thăm quan nổi tiếng của Hà Nội. Website dễ dàng thao tác, thanh toán nhanh.",
+        "project":{
+            "api":"#Php",
+            "framework":"#JavaScript",
+            "database":"#MySQL",
+            "css":"#Tailwindcss"
+        }
+    },
+    {
+        "id": 6,
+        "website": "Website Đặt Vé Tàu Lửa",
+        "imageURL":"./assets/images/web_train.png",
+        "content":"Website đặt vé tàu lửa, cung cấp dịch vụ đặt vé tàu xe lửa, hỗ trợ khách hàng đặt chặng đi - chặng về, ngày giờ đi- ngày giờ về, chọn ghế, chọn toa và chọn hạng ghế, thao tác liền mạch đặt vé nhanh dễ dành, mang đến trải nghiệm tốt, thoải mái cho khách hàng khi sử dụng website.",
+        "project":{
+            "api":"#NodeJs",
+            "framework":"#Angular",
+            "database":"#Mongodb",
+            "css":"#Tailwindcss"
+        }
+    }  
+    ],
+    "educations":[
+    {
+        "id":1,
+        "name":"Thiết kế Website(Front-end)tại trườngFPT Polytechnic",
+        "date":"Tháng 11/2019 - 06/2022",
+        "gpa":"8.3/10.0"
+    },
+    {
+        "id":2,
+        "name":"Kỹ sư Công Nghệ Thực Phẩm (Đồ uống) tại trường Công Nghệ Tp. Hồ Chí Minh",
+        "date":"Tháng 10/2014 - 07/2018",
+        "gpa":"2.2/4.0"
+    }
+    ]
+}
+  

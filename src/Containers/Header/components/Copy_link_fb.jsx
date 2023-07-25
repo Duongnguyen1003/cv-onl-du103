@@ -1,0 +1,43 @@
+import React, { Fragment, useState } from 'react'
+import CopyToClipboard from 'react-copy-to-clipboard';
+import check_true from '../../../assets/icons_json/check_true.json';
+import copy_text from '../../../assets/svg_file/copy_text.svg';
+import { Player } from '@lottiefiles/react-lottie-player';
+
+const Copy_link_fb = () => {
+    const [isCopied, setIsCopied] = useState(false);
+
+    const linkFb = `https://www.facebook.com/yangyang103/`;
+
+    const copyLinkFb = () => {
+        setIsCopied(true);
+        setTimeout(() =>{
+            setIsCopied(false);
+        }, 1000)
+    };
+
+    return (
+        <Fragment>
+            <span className='truncate flex-1 text-left block py-2.5 rounded-s-md px-4 text-sm text-gray-700 
+            bg-white border border-[#b7c5d3] select-none focus:border-blue-400 focus:ring-blue-300 
+            focus:ring-opacity-40 max-[280px]:w-24 focus:outline-none focus:ring'>{linkFb}</span>
+            <CopyToClipboard text={linkFb} onCopy={copyLinkFb}>
+                <div className='p-2 border border-[#b7c5d3] rounded-e-md'>
+                {isCopied ? (
+                    <Player
+                        autoplay
+                        speed={1.5}
+                        loop
+                        src={check_true}
+                        style={{ height: "24px", width: "24px" }}
+                    ></Player>
+                    ) : (
+                    <img className='cursor-pointer w-6 h-6' src={copy_text} alt="button success copy phone" />)}
+                </div>
+            
+            </CopyToClipboard>
+        </Fragment>
+    )
+}
+
+export default Copy_link_fb

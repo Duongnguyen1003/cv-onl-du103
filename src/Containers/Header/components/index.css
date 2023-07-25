@@ -1,0 +1,68 @@
+
+@media (max-width: 767px) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -1000px;
+      width: 300px;
+      height: 100vh;
+      background: #e6efff;
+      transition: 0.5s;
+      z-index: 990;
+      padding: 10% 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .sidebar.active1 {
+      right: 0px;
+    }
+  }
+
+@media (min-width: 768px) {
+  .navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+    background: transparent;
+    padding: 1.25rem 2.5rem;
+  }
+  
+  .navbar.active{
+    background: white;
+  }
+}
+
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  transform: scale(1.1);
+}
+
+.modal{
+  z-index: 9999;
+}
+
+.overlay {
+  background: #000000;
+  filter: blur(4px);
+  opacity: 0.5;
+}
+
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 0.25s;}
