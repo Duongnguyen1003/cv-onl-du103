@@ -16,9 +16,12 @@ const Education = () => {
                 <img className='absolute bottom-0 left-0' src={img_education} alt=""/>
                 <article style={{'--image-url-bg': `url(${bg_education})`}} className="bg-[image:var(--image-url-bg)] pt-10 bg-cover bg-no-repeat lg:py-10">
                     <div className="container mx-auto flex justify-center flex-wrap gap-x-20 items-center max-w-7xl space-y-10 md:space-y-20">
-                        <div className="space-y-10 mt-10 w-9/12 mx-auto md:w-[60%] lg:w-[45%]">
+                        <div className="space-y-10 mt-10 w-9/12 mx-auto md:w-[60%] lg:w-[45%]" 
+                                data-aos="fade-right"
+                                data-aos-duration="600"
+                                data-aos-offset="120">
                             <h2 style={{'--bg-url-item': `url(${line_svg})`}}
-                                className="relative ml-32 text-left font-Brygada text-4xl md:text-5xl font-semibold capitalize after:absolute after:-bottom-[30px] after:left-5 after:z-10 after:h-7 after:w-[125px] after:bg-[image:var(--bg-url-item)] after:bg-no-repeat after:content-['']">
+                                className="relative ml-32 max-[380px]:ml-24 max-[380px]:text-3xl text-left font-Brygada text-4xl md:text-5xl font-semibold capitalize after:absolute after:-bottom-[30px] after:left-5 max-[380px]:after:left-0 after:z-10 after:h-7 after:w-[125px] after:bg-[image:var(--bg-url-item)] after:bg-no-repeat after:content-['']">
                                 Học vấn
                             </h2>
                             <div className="z-30 font-Nunito">
@@ -44,8 +47,8 @@ const Education = () => {
                                                 <span className="block md:inline-block">{education.date}</span>
                                             </div>
                                             <div className="space-x-2 pl-8 md:pl-14">
-                                                <span className="font-medium block md:inline-block">GPA:</span>
-                                                <span className="block md:inline-block">{education.gpa}</span>
+                                                <span className="font-medium">GPA:</span>
+                                                <span className="">{education.gpa}</span>
                                             </div>
                                         </div>
                                         )
@@ -54,7 +57,9 @@ const Education = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div data-aos="fade-right"
+                        data-aos-duration="600"
+                        data-aos-offset="120">
                             <img className="mx-auto mt-10 md:mt-0 w-full h-full" src={image_education} alt="about" />
                         </div>
                     </div>
