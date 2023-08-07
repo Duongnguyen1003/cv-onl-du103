@@ -6,7 +6,7 @@ import ItemSkill from './ItemSkill';
 const Skills = () => {
     return (
         <Fragment>
-            <section id="skills" style={{'--image-url': `url(${bg_skills})`}} className="bg-[image:var(--image-url)] min-h-min bg-fixed bg-repeat py-10 lg:my-5">
+            <section id="skills" style={{'--image-url': `url(${bg_skills})`}} data-aos="fade-down" className="bg-[image:var(--image-url)] min-h-min bg-fixed bg-repeat py-10 lg:my-5">
               
                 <article className="container mx-auto max-w-7xl px-5 md:px-0 text-dark_primary">
                     <h2 style={{'--bg-url-item': `url(${line_svg})`}}

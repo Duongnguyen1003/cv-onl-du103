@@ -34,8 +34,8 @@ const HeaderContent = () => {
                     </h2>
                     <p
                         className="md:w-[450px] xl:w-[500px] font-Nunito text-justify indent-7 text-sm md:text-base lg:font-medium xl:text-lg">
-                        Tôi sáng tạo, yêu thích, có khả năng tìm kiếm, tìm hiểu, xây
-                        dựng layout website bằng HTML/ CSS/ Javascript. Ngoài ra, có thể
+                        Tôi yêu thích, sáng tạo, có khả năng tìm kiếm, tìm hiểu, xây
+                        dựng layout website. Ngoài ra, có thể
                         Responsive Design ở các cấu hình trình duyệt
                     </p>
                     <div

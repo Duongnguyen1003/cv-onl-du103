@@ -9,7 +9,6 @@ const ItemExperience = () => {
         <Fragment>
             {experiences.map((experience, index) =>{
                 return (
-                    <div className='group'>
                         <Atropos key={index}>
                             <div data-aos="fade-up"
                                 data-aos-delay={index * 200}
@@ -30,8 +29,6 @@ const ItemExperience = () => {
                                 </div>
                             </div>
                         </Atropos>
-                    </div>
-                    
                     )
                 })}
         </Fragment>
